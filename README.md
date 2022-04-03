@@ -1,12 +1,30 @@
 # create-angular-app
 
-Simple Angular template with lazy loading
+Simple Angular template with lazy loading that fallows google architecture recommendation
+
+There is readmes in each folder to explain you there role
 
 ## Installation
 
 ```bash
 npx degit https://github.com/TheSmartMonkey/create-angular-app ui
 ```
+
+## Recommended rules to follow
+
+1. Follow the rule of [Smart & Dumb Components](https://dev.to/mquanit/concept-of-smart-dumb-components-in-angular-2fom)
+
+    1. Smart components are components : collect the datadisplay the data
+
+    1. Dumb components or isolated components : display the data
+
+    1. Use @Input to get the data
+
+    1. Finally a page component is composed of Smart & Dump components
+
+1. A component must not exceed 100 lines of code
+
+![APP IMAGE](https://github.com/TheSmartMonkey/create-angular-app/blob/main/.github/components.PNG)
 
 ## Ui
 
