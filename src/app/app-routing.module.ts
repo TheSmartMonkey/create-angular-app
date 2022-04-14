@@ -1,4 +1,4 @@
-import { PublicRoutes } from './public/public.routing';
+import { PublicRoutingModule } from './public/public-routing.module';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -8,7 +8,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    PublicRoutes,
+    PublicRoutingModule,
     RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]

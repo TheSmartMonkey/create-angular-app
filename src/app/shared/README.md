@@ -1,3 +1,3 @@
 # Shared module
 
-All components you need for your application that are used at multiple places
+All global components you need for your application that are used at multiple places (ex: buttons, modals, directives, pipes)
