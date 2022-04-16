@@ -27,5 +27,3 @@ You have a full exemple in the public folder
 https://angular.io/guide/lazy-loading-ngmodules
 
 https://www.9lessons.info/2019/05/angular-routing-with-lazy-loading.html
-
-## Articles

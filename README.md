@@ -2,7 +2,7 @@
 
 Simple Angular template with lazy loading that fallows google architecture recommendation
 
-There is readmes in each folder to explain you there role
+There is READMES in each folder to explain you there role
 
 ## Installation
 
@@ -14,25 +14,25 @@ npx degit https://github.com/TheSmartMonkey/create-angular-app ui
 
 1. Follow the rule of [Smart & Dumb Components](https://dev.to/mquanit/concept-of-smart-dumb-components-in-angular-2fom)
 
-    1. Smart components are components : collect the datadisplay the data
+    a. **Smart components** : collect the data
 
-    1. Dumb components or isolated components : display the data
+    b. **Dumb components** or isolated components : display the data
 
-    1. Use @Input to get the data
+    c. Use @Input to get the data
 
-    1. Finally a page component is composed of Smart & Dump components
+    d. Finally a page component is composed of Smart & Dump components
 
-1. A component must not exceed 100 lines of code
+1. Ideally a component must not exceed 100 lines of code
+
+1. Adopte the SOLID Pattern and others : [Angular Patterns](https://angular-enterprise.com/en/ngpost/courses/design-patterns/)
 
 ![APP IMAGE](https://github.com/TheSmartMonkey/create-angular-app/blob/main/.github/smart_and_dump_components.png)
 
-## Articles
-
-
-
-## Ui
+## Getting Started
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+
+More explications here : `src\app\README.md`
 
 ### Development server
 
