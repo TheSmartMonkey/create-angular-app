@@ -24,7 +24,7 @@ npx degit https://github.com/TheSmartMonkey/create-angular-app ui
 
 1. A component must not exceed 100 lines of code
 
-![APP IMAGE](https://github.com/TheSmartMonkey/create-angular-app/blob/main/.github/smart_and_dump_components.PNG)
+![APP IMAGE](https://github.com/TheSmartMonkey/create-angular-app/blob/main/.github/smart_and_dump_components.png)
 
 ## Articles
 
