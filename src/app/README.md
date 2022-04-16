@@ -12,7 +12,7 @@ You have a full exemple in the public folder
 
 3. Go to `src\app\app-routing.module.ts` file
 
-4. Cut this line of code and add it to `src\app\public\public.routes.ts` then correct the import path
+4. Cut this line of code and add it to `src\app\public\public-routing.module.ts` then correct the import path
 
 ```typescript
 { path: 'login', loadChildren: () => import('./login/login.module').then(m => m.LoginModule) }
