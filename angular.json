@@ -105,6 +105,11 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/sass/"
+              ]
+            },
             "styles": [
               "src/sass/variables.scss",
               "src/sass/global.scss",

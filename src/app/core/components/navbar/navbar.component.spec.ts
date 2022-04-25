@@ -1,3 +1,5 @@
+import { TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
 /* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
@@ -11,7 +13,11 @@ describe('NavbarComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavbarComponent ]
+      declarations: [ NavbarComponent ],
+      imports: [
+        CommonModule,
+        TranslateModule.forRoot(),
+      ],
     })
     .compileComponents();
   }));
