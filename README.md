@@ -177,6 +177,7 @@ src
 |   |               
 |   \---shared
 |       |   README.md
+|       |   shared.module.ts
 |       |   
 |       +---components
 |       |       .gitkeep
