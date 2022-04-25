@@ -59,3 +59,151 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Steps to update the repo
+
+1. Create a new project
+
+    ```sh
+    ng new ui
+    ```
+
+1. Download ngx-translate
+
+    ```sh
+    npm install @ngx-translate/core --save
+    ```
+
+    ```sh
+    npm install @ngx-translate/http-loader --save
+    ```
+
+1. Copy the code
+
+1. Test the app
+
+    ```sh
+    npm run start
+    ```
+
+    ```sh
+    npm run test
+    ```
+
+## Folder tree
+
+```txt
+src
+|   favicon.ico
+|   index.html
+|   main.ts
+|   polyfills.ts
+|   test.ts
+|   
++---app
+|   |   app-routing.module.ts
+|   |   app.component.html
+|   |   app.component.scss
+|   |   app.component.spec.ts
+|   |   app.component.ts
+|   |   app.module.ts
+|   |   README.md
+|   |   
+|   +---admin
+|   |       admin-routing.module.ts
+|   |       admin.module.ts
+|   |       README.md
+|   |       
+|   +---core
+|   |   |   core.module.ts
+|   |   |   README.md
+|   |   |   
+|   |   +---components
+|   |   |   +---navbar
+|   |   |   |       navbar.component.html
+|   |   |   |       navbar.component.scss
+|   |   |   |       navbar.component.spec.ts
+|   |   |   |       navbar.component.ts
+|   |   |   |       
+|   |   |   \---page-not-found
+|   |   |           page-not-found.component.html
+|   |   |           page-not-found.component.scss
+|   |   |           page-not-found.component.spec.ts
+|   |   |           page-not-found.component.ts
+|   |   |           
+|   |   +---guards
+|   |   |       .gitkeep
+|   |   |       
+|   |   +---interceptors
+|   |   |       .gitkeep
+|   |   |       
+|   |   \---services
+|   |           .gitkeep
+|   |           
+|   +---models
+|   |       README.md
+|   |       
+|   +---protected
+|   |       protected-routing.module.ts
+|   |       protected.module.ts
+|   |       README.md
+|   |       
+|   +---public
+|   |   |   public-routing.module.ts
+|   |   |   public.module.ts
+|   |   |   README.md
+|   |   |   
+|   |   +---home
+|   |   |   |   home-routing.module.ts
+|   |   |   |   home.component.html
+|   |   |   |   home.component.scss
+|   |   |   |   home.component.spec.ts
+|   |   |   |   home.component.ts
+|   |   |   |   home.module.ts
+|   |   |   |   
+|   |   |   \---components
+|   |   |           .gitkeep
+|   |   |           
+|   |   \---login
+|   |       |   login-routing.module.ts
+|   |       |   login.component.html
+|   |       |   login.component.scss
+|   |       |   login.component.spec.ts
+|   |       |   login.component.ts
+|   |       |   login.module.ts
+|   |       |   
+|   |       \---components
+|   |               .gitkeep
+|   |               
+|   \---shared
+|       |   README.md
+|       |   
+|       +---components
+|       |       .gitkeep
+|       |       
+|       +---directives
+|       |       .gitkeep
+|       |       
+|       \---pipes
+|               .gitkeep
+|               
++---assets
+|   +---icons
+|   |       .gitkeep
+|   |       
+|   +---images
+|   |       .gitkeep
+|   |       
+|   \---languages
+|           en.json
+|           fr.json
+|           
++---environments
+|       environment.prod.ts
+|       environment.ts
+|       
+\---sass
+        global.scss
+        styles.scss
+        variables.scss
+```
