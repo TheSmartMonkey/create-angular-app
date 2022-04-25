@@ -1,4 +1,12 @@
-<button type="button" routerLink="/home">home</button>
-<button type="button" routerLink="/login">login</button>
-<button type="button" routerLink="/admin-home">admin-home</button>
-<button type="button" routerLink="">root</button>
+<ul>
+    <li>
+        <a [ngClass]="{'active': currentPage === 'home'}" (click)="navigate('home')" routerLink="">Home</a>
+    </li>
+    <li>
+        <a [ngClass]="{'active': currentPage === 'login'}" (click)="navigate('login')" routerLink="/login">Login</a>
+    </li>
+    <li>
+        <a [ngClass]="{'active': currentPage === 'fake'}" (click)="navigate('fake')"
+            routerLink="/trying-a-fake-root">Fake</a>
+    </li>
+</ul>

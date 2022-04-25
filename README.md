@@ -26,6 +26,8 @@ npx degit https://github.com/TheSmartMonkey/create-angular-app ui
 
 1. Adopte the SOLID Pattern and others : [Angular Patterns](https://angular-enterprise.com/en/ngpost/courses/design-patterns/)
 
+1. [Angular concepts](https://angular.io/guide/architecture)
+
 ![APP IMAGE](https://github.com/TheSmartMonkey/create-angular-app/blob/main/.github/smart_and_dump_components.png)
 
 ## Getting Started

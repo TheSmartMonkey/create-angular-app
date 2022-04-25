@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  currentPage: string = 'home';
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  navigate(page: string): void {
+    this.currentPage = page;
   }
 
 }
