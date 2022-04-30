@@ -12,7 +12,7 @@ npx degit https://github.com/TheSmartMonkey/create-angular-app ui
 
 ## Recommended rules to follow
 
-1. Follow the rule of [Smart & Dumb Components](https://dev.to/mquanit/concept-of-smart-dumb-components-in-angular-2fom)
+1. Follow the rule of [Smart & Dumb Components](https://dev.to/mquanit/concept-of-smart-dumb-components-in-angular-2fom) , [Smart & Dumb Components in depth](https://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
 
     a. **Smart components** : collect the data
 
