@@ -1,11 +1,13 @@
-import { SharedModule } from './../shared/shared.module';
+import { TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 @NgModule({
   declarations: [],
   imports: [],
   exports: [
-    SharedModule,
+    CommonModule,
+    TranslateModule,
   ],
 })
 export class ProtectedModule { }
