@@ -13,13 +13,9 @@ describe('NavbarComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavbarComponent ],
-      imports: [
-        CommonModule,
-        TranslateModule.forRoot(),
-      ],
-    })
-    .compileComponents();
+      declarations: [NavbarComponent],
+      imports: [CommonModule, TranslateModule.forRoot()],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

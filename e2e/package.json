@@ -1,17 +1,17 @@
 {
-    "name": "e2e",
-    "version": "0.0.0",
-    "scripts": {
-        "open": "cypress open",
-        "local": "CYPRESS_BASE_URL='http://localhost:4200/' cypress open",
-        "test": "cypress run"
-    },
-    "devDependencies": {
-        "cypress": "^8.3.1",
-        "cypress-file-upload": "^5.0.8"
-    },
-    "dependencies": {
-        "aws-sdk": "^2.1014.0",
-        "axios": "^0.26.1"
-    }
+  "name": "e2e",
+  "version": "0.0.0",
+  "scripts": {
+    "open": "cypress open",
+    "local": "CYPRESS_BASE_URL='http://localhost:4200/' cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1014.0",
+    "axios": "^0.26.1"
+  }
 }

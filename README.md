@@ -14,13 +14,13 @@ npx degit https://github.com/TheSmartMonkey/create-angular-app ui
 
 1. Follow the rule of [Smart & Dumb Components](https://dev.to/mquanit/concept-of-smart-dumb-components-in-angular-2fom) , [Smart & Dumb Components in depth](https://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
 
-    a. **Smart components** : collect the data
+   a. **Smart components** : collect the data
 
-    b. **Dumb components** or isolated components : display the data
+   b. **Dumb components** or isolated components : display the data
 
-    c. Use @Input to get the data
+   c. Use @Input to get the data
 
-    d. Finally a page component is composed of Smart & Dump components
+   d. Finally a page component is composed of Smart & Dump components
 
 1. Ideally a component must not exceed 100 lines of code
 
@@ -64,31 +64,31 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 1. Create a new project
 
-    ```sh
-    ng new ui
-    ```
+   ```sh
+   ng new ui
+   ```
 
 1. Download ngx-translate
 
-    ```sh
-    npm install @ngx-translate/core --save
-    ```
+   ```sh
+   npm install @ngx-translate/core --save
+   ```
 
-    ```sh
-    npm install @ngx-translate/http-loader --save
-    ```
+   ```sh
+   npm install @ngx-translate/http-loader --save
+   ```
 
 1. Copy the code
 
 1. Test the app
 
-    ```sh
-    npm run start
-    ```
+   ```sh
+   npm run start
+   ```
 
-    ```sh
-    npm run test
-    ```
+   ```sh
+   npm run test
+   ```
 
 ## Folder tree
 
@@ -99,7 +99,7 @@ src
 |   main.ts
 |   polyfills.ts
 |   test.ts
-|   
+|
 +---app
 |   |   app-routing.module.ts
 |   |   app.component.html
@@ -108,51 +108,51 @@ src
 |   |   app.component.ts
 |   |   app.module.ts
 |   |   README.md
-|   |   
+|   |
 |   +---admin
 |   |       admin-routing.module.ts
 |   |       admin.module.ts
 |   |       README.md
-|   |       
+|   |
 |   +---core
 |   |   |   core.module.ts
 |   |   |   README.md
-|   |   |   
+|   |   |
 |   |   +---components
 |   |   |   +---navbar
 |   |   |   |       navbar.component.html
 |   |   |   |       navbar.component.scss
 |   |   |   |       navbar.component.spec.ts
 |   |   |   |       navbar.component.ts
-|   |   |   |       
+|   |   |   |
 |   |   |   \---page-not-found
 |   |   |           page-not-found.component.html
 |   |   |           page-not-found.component.scss
 |   |   |           page-not-found.component.spec.ts
 |   |   |           page-not-found.component.ts
-|   |   |           
+|   |   |
 |   |   +---guards
 |   |   |       .gitkeep
-|   |   |       
+|   |   |
 |   |   +---interceptors
 |   |   |       .gitkeep
-|   |   |       
+|   |   |
 |   |   \---services
 |   |           .gitkeep
-|   |           
+|   |
 |   +---models
 |   |       README.md
-|   |       
+|   |
 |   +---protected
 |   |       protected-routing.module.ts
 |   |       protected.module.ts
 |   |       README.md
-|   |       
+|   |
 |   +---public
 |   |   |   public-routing.module.ts
 |   |   |   public.module.ts
 |   |   |   README.md
-|   |   |   
+|   |   |
 |   |   +---home
 |   |   |   |   home-routing.module.ts
 |   |   |   |   home.component.html
@@ -160,10 +160,10 @@ src
 |   |   |   |   home.component.spec.ts
 |   |   |   |   home.component.ts
 |   |   |   |   home.module.ts
-|   |   |   |   
+|   |   |   |
 |   |   |   \---components
 |   |   |           .gitkeep
-|   |   |           
+|   |   |
 |   |   \---login
 |   |       |   login-routing.module.ts
 |   |       |   login.component.html
@@ -171,37 +171,37 @@ src
 |   |       |   login.component.spec.ts
 |   |       |   login.component.ts
 |   |       |   login.module.ts
-|   |       |   
+|   |       |
 |   |       \---components
 |   |               .gitkeep
-|   |               
+|   |
 |   \---shared
 |       |   README.md
-|       |   
+|       |
 |       +---components
 |       |       .gitkeep
-|       |       
+|       |
 |       +---directives
 |       |       .gitkeep
-|       |       
+|       |
 |       \---pipes
 |               .gitkeep
-|               
+|
 +---assets
 |   +---icons
 |   |       .gitkeep
-|   |       
+|   |
 |   +---images
 |   |       .gitkeep
-|   |       
+|   |
 |   \---languages
 |           en.json
 |           fr.json
-|           
+|
 +---environments
 |       environment.prod.ts
 |       environment.ts
-|       
+|
 \---sass
         global.scss
         styles.scss

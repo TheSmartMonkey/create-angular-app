@@ -5,9 +5,6 @@ import { NgModule } from '@angular/core';
 @NgModule({
   declarations: [],
   imports: [],
-  exports: [
-    CommonModule,
-    TranslateModule,
-  ],
+  exports: [CommonModule, TranslateModule],
 })
-export class AdminModule { }
+export class AdminModule {}

@@ -11,12 +11,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    AdminRoutingModule,
-    ProtectedRoutingModule,
-    PublicRoutingModule,
-    RouterModule.forRoot(routes)
-  ],
-  exports: [RouterModule]
+  imports: [AdminRoutingModule, ProtectedRoutingModule, PublicRoutingModule, RouterModule.forRoot(routes)],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

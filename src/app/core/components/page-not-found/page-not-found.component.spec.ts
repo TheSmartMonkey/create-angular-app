@@ -1,9 +1,7 @@
-import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 /* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
 import { PageNotFoundComponent } from './page-not-found.component';
 
@@ -13,13 +11,9 @@ describe('PageNotFoundComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageNotFoundComponent ],
-      imports: [
-        CommonModule,
-        TranslateModule.forRoot(),
-      ],
-    })
-    .compileComponents();
+      declarations: [PageNotFoundComponent],
+      imports: [CommonModule, TranslateModule.forRoot()],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

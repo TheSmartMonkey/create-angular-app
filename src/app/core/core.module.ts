@@ -6,18 +6,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [
-    NavbarComponent,
-    PageNotFoundComponent,
-  ],
-  imports: [
-    CommonModule,
-    TranslateModule,
-    RouterModule,
-  ],
-  exports: [
-    NavbarComponent,
-    PageNotFoundComponent,
-  ],
+  declarations: [NavbarComponent, PageNotFoundComponent],
+  imports: [CommonModule, TranslateModule, RouterModule],
+  exports: [NavbarComponent, PageNotFoundComponent],
 })
-export class CoreModule { }
+export class CoreModule {}
