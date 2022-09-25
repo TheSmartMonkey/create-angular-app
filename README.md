@@ -62,23 +62,33 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Steps to update the repo
 
+1. Remove `angular.json`, `.vscode`
+
 1. Create a new project
 
    ```sh
    ng new ui
    ```
 
-1. Download ngx-translate
+1. Download packages
 
    ```sh
-   npm install @ngx-translate/core --save
+   npm i @ngx-translate/core --save
+   npm i @ngx-translate/http-loader --save
+   npm i prettier --save-dev
+   npm i eslint --save-dev
+   npm i @angular-eslint/eslint-plugin --save-dev
+   npm i @typescript-eslint/parser --save-dev
+   npm i @typescript-eslint/eslint-plugin --save-dev
    ```
 
-   ```sh
-   npm install @ngx-translate/http-loader --save
-   ```
+1. Remove readme
 
-1. Copy the code
+1. Copy `package.json` commands
+
+1. Copy the code (app, assets, sass, angular.json)
+
+1. Format code `npm run format`
 
 1. Test the app
 

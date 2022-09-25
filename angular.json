@@ -108,9 +108,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ui",
-  "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
   }
 }
