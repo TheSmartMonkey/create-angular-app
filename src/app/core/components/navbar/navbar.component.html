@@ -1,16 +1,16 @@
 <ul>
   <li>
-    <a [ngClass]="{ active: currentPage === 'home' }" (click)="navigate('home')" routerLink="">
+    <a [ngClass]="{ active: currentPage === '/home' }" (click)="navigate('/home')" routerLink="/home">
       {{ 'HOME' | translate | titlecase }}
     </a>
   </li>
   <li>
-    <a [ngClass]="{ active: currentPage === 'login' }" (click)="navigate('login')" routerLink="/login">
+    <a [ngClass]="{ active: currentPage === '/login' }" (click)="navigate('/login')" routerLink="/login">
       {{ 'LOGIN' | translate | titlecase }}
     </a>
   </li>
   <li>
-    <a [ngClass]="{ active: currentPage === 'fake' }" (click)="navigate('fake')" routerLink="/trying-a-fake-root">
+    <a [ngClass]="{ active: currentPage === '/trying-a-fake-root' }" (click)="navigate('/fake')" routerLink="/trying-a-fake-root">
       {{ 'FAKE' | translate | titlecase }}
     </a>
   </li>
